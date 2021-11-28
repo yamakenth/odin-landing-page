@@ -1,9 +1,31 @@
-body {
+/* reset */
+
+body, 
+p,
+h1 {
   margin: 0;
+}
+
+/* body */
+
+body {
   min-height: 100vh;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
 }
+
+/* img */
+
+img {
+  width: auto;
+  height : auto;
+  max-height: 240px;
+  max-width: 100%;
+}
+
+/* header */
 
 .header {
   background-color: #1f2937;
@@ -32,4 +54,48 @@ body {
 .logo {
   font-size: 24px;
   font-weight: bold;
+}
+
+/* hero */
+
+.hero {
+  display: flex;
+  padding: 100px 20px;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(215, 28%, 17%);
+  color: #e5e7eb;
+  gap: 20px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  color: #f9faf8;
+  padding-bottom: 12px;;
+}
+
+.hero p {
+  font-size: 18px;
+  padding-bottom: 12px;;
+}
+
+.hero button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  border: 0;
+  border-radius: 6px;;
+  padding: 8px 26px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.hero .right-content {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.hero .left-content {
+  width: 50%;
 }
