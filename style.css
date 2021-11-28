@@ -2,7 +2,8 @@
 
 body, 
 p,
-h1 {
+h1,
+h2 {
   margin: 0;
 }
 
@@ -83,7 +84,7 @@ img {
   background-color: #3882f6;
   color: #f9faf8;
   border: 0;
-  border-radius: 6px;;
+  border-radius: 6px;
   padding: 8px 26px;
   font-weight: bold;
   font-size: 18px;
@@ -98,4 +99,43 @@ img {
 
 .hero .left-content {
   width: 50%;
+}
+
+/* info */
+
+.info {
+  padding: 40px 20px;
+}
+
+.info h2 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  margin-bottom: 40px;
+}
+
+.illustration {
+  border: 3px solid #3882f6;
+  width: 120px;
+  height: 120px;
+  border-radius: 12px;
+}
+
+.info .items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.items .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.item p {
+  text-align: center;
+  color: #1f2937;
 }
