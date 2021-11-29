@@ -190,8 +190,13 @@ button {
 /* sign-up */
 
 .sign-up {
+  padding: 100px 20px;
+}
+
+.sign-up .container {
   display: flex;
-  margin: 100px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
   padding: 40px 40px;
   border-radius: 6px;
   background-color: #3882f6;
