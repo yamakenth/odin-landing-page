@@ -12,7 +12,6 @@ h3 {
 /* body */
 
 body {
-  min-height: 100vh;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
   display: flex;
@@ -29,11 +28,15 @@ img {
   max-width: 100%;
 }
 
+.header,
+.footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+}
+
 /* header */
 
 .header {
-  background-color: #1f2937;
-  color: #f9faf8;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -171,6 +174,7 @@ button {
 }
 
 /* sign-up */
+
 .sign-up {
   display: flex;
   margin: 100px 20px;
@@ -194,4 +198,12 @@ button {
 .sign-up p {
   font-size: 16px;
   color: #e5e7eb
+}
+
+/* footer */
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
 }
